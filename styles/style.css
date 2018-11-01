@@ -1,5 +1,5 @@
 @import "reset.css";
-/* псевдо-селектора :before/after, чтобы добавить полоску;
+/* псевдо-селектор :before/after, чтобы добавить полоску;
  */
 
 body {
@@ -42,3 +42,29 @@ nav ul {
   nav ul:last-of-type {
     align-items: center;
   }
+
+.info-panel {
+  display: flex;
+
+  height: 45px;
+  padding: 0 15px;
+
+  color: #000;
+  border-bottom: 1px solid #999;
+  background-color: #fff;
+
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-panel a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #999;
+}
